@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-import 'package:disenos_app/src/pages/emergency_page.dart';
+import 'package:disenos_app/src/pages/slider_list.dart';
+//import 'package:disenos_app/src/pages/emergency_page.dart';
 //import 'package:disenos_app/src/widgets/slideshow.dart';
 //import 'package:disenos_app/src/pages/pinterest_page.dart';
 
@@ -26,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños App',
-      home: EmergencyPage(),
+      home: SliverListPage(),
     );
   }
 }
